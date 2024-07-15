@@ -1,0 +1,61 @@
+{
+  "item": [
+    {
+      "name": "JavaScript",
+      "color": "yellow",
+      "percentage": 86,
+      "img": "https://www.svgrepo.com/download/349419/javascript.svg",
+      "info": "https://www.svgrepo.com/download/56648/verified-contact.svg"
+    },
+
+    {
+      "name": "React.js",
+      "color": "cyan",
+      "percentage": 75,
+      "img": "https://www.svgrepo.com/download/354259/react.svg",
+      "info": "https://www.svgrepo.com/download/56648/verified-contact.svg"
+    },
+    {
+      "name": "Python",
+      "percentage": 55,
+      "color": "rgb(0, 174, 255)",
+      "img": "https://www.svgrepo.com/download/452091/python.svg",
+      "info": "https://www.svgrepo.com/download/56648/verified-contact.svg"
+    },
+    {
+      "name": "MongoDB",
+      "color": " rgb(15, 202, 15)",
+      "percentage": 33,
+      "img": "https://www.svgrepo.com/download/439231/mongodb.svg",
+      "info": "https://www.svgrepo.com/download/56648/verified-contact.svg"
+    },
+    {
+      "name": "PhotoShop",
+      "color": "blue",
+      "percentage": 85,
+      "img": "https://www.svgrepo.com/download/373968/photoshop.svg",
+      "info": "https://www.svgrepo.com/download/56648/verified-contact.svg"
+    },
+    {
+      "name": "Premiere Pro",
+      "percentage": 30,
+      "color": "blueviolet",
+      "img": "https://www.svgrepo.com/download/452150/adobe-premiere.svg",
+      "info": "https://www.svgrepo.com/download/56648/verified-contact.svg"
+    },
+    {
+      "name": "Figma",
+      "color": "red",
+      "percentage": 40,
+      "img": "https://www.svgrepo.com/download/452202/figma.svg",
+      "info": "https://www.svgrepo.com/download/56648/verified-contact.svg"
+    },
+    {
+      "name": "Capcut",
+      "color": "rgb(149, 92, 18)",
+      "percentage": 90,
+      "img": "https://www.svgrepo.com/download/504203/capcut.svg",
+      "info": "https://www.svgrepo.com/download/56648/verified-contact.svg"
+    }
+  ]
+}

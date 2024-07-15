@@ -1,0 +1,95 @@
+body {
+  box-sizing: border-box;
+}
+.expp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  .expp-details {
+    // width:100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 1px 1px 1px 1px grey;
+    padding: 30px;
+    // width: 100%;
+    width: 90vw;
+    margin: 30px;
+    border-radius: 15px;
+    .exppinfo {
+      // border: 1px solid white;
+
+      padding: 10px;
+      h1 {
+        font-weight: 700;
+        font-size: 20px;
+        padding: 0;
+      }
+      p {
+        color: dodgerblue;
+        // margin-top: 1px;
+        // width: 90%;
+        line-height: 1.5;
+        font-size: 14px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      h2 {
+        color: green;
+        line-height: 3;
+        font-size: 14px;
+      }
+      ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        color: grey;
+        font-size: 13px;
+        list-style-type: disc;
+
+        li {
+          padding: 5px;
+
+          //  text-decoration: rgb(23, 42, 212);
+          // outline: cornflowerblue;
+          //  font-size: 16px;
+        }
+        li::marker {
+          font-size: 16px;
+          color: cornflowerblue;
+        }
+      }
+    }
+    .duration {
+      //  border: 1px solid white;
+      //  width:10vw;
+      color: cornflowerblue;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      line-height: 3;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-weight: 600;
+      h3 {
+        font-size: 12px;
+      }
+      .nuella {
+        background-color:rgb(68, 33, 194);
+        width: 35px;
+        height: 35px;
+        
+      }
+      .nico{
+        background-color:mediumslateblue;
+        width: 35px;
+        height: 35px;
+        color: black;
+      }
+    }
+  }
+}

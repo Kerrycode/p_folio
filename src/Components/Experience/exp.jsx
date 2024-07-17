@@ -13,33 +13,33 @@ function exp() {
           <p>Role Description</p>
           <h2>I was responsible for:</h2>
           <ul>
-            <li>
-              Creating visual content for various digital platforms using Adobe
-              Photoshop.
-            </li>
-            <li>
-              Developing brand identity and ensuring consistency across all
-              design projects.
-            </li>
-            <li>
-              Collaborating with clients and team members to understand project
-              requirements and deliver creative solutions.
-            </li>
-            <li>
-              Designing logos, brochures, posters, and other promotional
-              materials.
-            </li>
-            <li>
-              Editing and enhancing photos to meet high-quality standards.
-            </li>
+            <li>Design client-side and server-side architectures.</li>
+            <li>Develop effective APIs with standardized documentations.</li>
+            <li>Test software to ensure responsiveness & efficiency.</li>
+            <li>Create security and data protection settings.</li>
             <li>
               Managing multiple projects simultaneously while adhering to
               deadlines.
             </li>
           </ul>
+          <div style={{ marginTop: "20px" }}>
+            <h4
+              style={{
+                fontSize: "12px",
+                textDecoration: "underline",
+                marginBottom: "5px",
+              }}
+            >
+              Required Skills:
+            </h4>
+            <p>
+              REACTJS • TYPESCRIPT • FIGMA • JAVASCRIPT • PROBLEM SOLVING •
+              GIT/GITHUB
+            </p>
+          </div>
         </div>
         <div className="duration">
-          <h3>May 2021 - Feb 2022</h3>
+          <h3>July 2021 – Present</h3>
           <div>
             {" "}
             <AvatarGroup max={4}>
@@ -81,6 +81,18 @@ function exp() {
               deadlines.
             </li>
           </ul>
+          <div style={{ marginTop: "20px" }}>
+            <h4
+              style={{
+                fontSize: "12px",
+                textDecoration: "underline",
+                marginBottom: "5px",
+              }}
+            >
+              Required Skills:
+            </h4>
+            <p>ADOBE PHOTOSHOP</p>
+          </div>
         </div>
         <div className="duration">
           <h3>May 2021 - Feb 2022</h3>
@@ -97,37 +109,37 @@ function exp() {
       </div>
       <div className="expp-details">
         <div className="exppinfo">
-          <h1>A.D.C. Limousine Services</h1>
+          <h1>GH school</h1>
           <p>Role Description</p>
           <h2>I was responsible for:</h2>
           <ul>
-            <li>
-              Creating visual content for various digital platforms using Adobe
-              Photoshop.
-            </li>
-            <li>
-              Developing brand identity and ensuring consistency across all
-              design projects.
-            </li>
-            <li>
-              Collaborating with clients and team members to understand project
-              requirements and deliver creative solutions.
-            </li>
-            <li>
-              Designing logos, brochures, posters, and other promotional
-              materials.
-            </li>
-            <li>
-              Editing and enhancing photos to meet high-quality standards.
-            </li>
+            <li>Design client-side and server-side architectures.</li>
+            <li>Develop effective APIs with standardized documentations.</li>
+            <li>Test software to ensure responsiveness & efficiency.</li>
+            <li>Create security and data protection settings.</li>
             <li>
               Managing multiple projects simultaneously while adhering to
               deadlines.
             </li>
           </ul>
+          <div style={{ marginTop: "20px" }}>
+            <h4
+              style={{
+                fontSize: "12px",
+                textDecoration: "underline",
+                marginBottom: "5px",
+              }}
+            >
+              Required Skills:
+            </h4>
+            <p>
+              REACTJS • TYPESCRIPT • FIGMA • JAVASCRIPT • PROBLEM SOLVING •
+              GIT/GITHUB
+            </p>
+          </div>
         </div>
         <div className="duration">
-          <h3>May 2021 - Feb 2022</h3>
+          <h3>May 2023 - Present</h3>
           <div>
             {" "}
             <AvatarGroup max={4}>
@@ -141,28 +153,29 @@ function exp() {
       </div>
       <div className="expp-details">
         <div className="exppinfo">
-          <h1>A.D.C. Limousine Services</h1>
+          <h1>Video Editor</h1>
           <p>Role Description</p>
           <h2>I was responsible for:</h2>
           <ul>
             <li>
-              Creating visual content for various digital platforms using Adobe
-              Photoshop.
+              Editing and assembling raw footage into polished, engaging video
+              content.
             </li>
             <li>
-              Developing brand identity and ensuring consistency across all
-              design projects.
+              Collaborating with creative teams to develop video concepts and
+              storyboards.
             </li>
             <li>
-              Collaborating with clients and team members to understand project
-              requirements and deliver creative solutions.
+              Adding visual effects, sound effects, and music to enhance video
+              quality.
             </li>
             <li>
-              Designing logos, brochures, posters, and other promotional
-              materials.
+              Ensuring all videos meet technical standards for various platforms
+              and formats.
             </li>
             <li>
-              Editing and enhancing photos to meet high-quality standards.
+              Managing multiple projects and meeting tight deadlines
+              consistently.
             </li>
             <li>
               Managing multiple projects simultaneously while adhering to
@@ -171,7 +184,7 @@ function exp() {
           </ul>
         </div>
         <div className="duration">
-          <h3>May 2021 - Feb 2022</h3>
+          <h3>May 2023 - Feb 2024</h3>
           <div>
             {" "}
             <AvatarGroup max={4}>

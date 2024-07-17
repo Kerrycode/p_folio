@@ -14,7 +14,6 @@ function Home() {
   const [count, setCount] = useState(0);
   const [years, setYears] = useState(0);
   const [loaded, setLoaded] = useState(false);
- 
 
   useEffect(() => {
     setLoaded(true);
@@ -22,27 +21,29 @@ function Home() {
 
   const loadcount = (startcount, endcount, callback, interval) => {
     let i = startcount;
-    let a;
-    a = setInterval(() => {
-      if (i < endcount) {
+    let a = setInterval(() => {
+      if (i !== endcount) {
         callback();
         i++;
       } else {
         clearInterval(a);
       }
     }, interval);
+    return a;
   };
-  const loadaction = () => {
+  const loadAction = () => {
     setCount((prevCount) => prevCount + 1);
   };
-  const loadyears = () => {
+  const loadYears = () => {
     setYears((prevYears) => prevYears + 1);
   };
   useEffect(() => {
-    loadcount(0, 3, loadaction, 1000);
+    const interval1 = loadcount(0, 3, loadAction, 1000);
+    return () => clearInterval(interval1);
   }, []);
   useEffect(() => {
-    loadcount(0, 15, loadyears, 1000);
+    const interval2 = loadcount(0, 15, loadYears, 1000);
+    return () => clearInterval(interval2);
   }, []);
 
   function SkillProgressBar({ percentage, color }) {
@@ -136,29 +137,40 @@ function Home() {
             <span className="work">Frontend-Developer</span>
             <div className="socials">
               <div className="cool">
-                <img
-                  src="https://www.svgrepo.com/download/303145/instagram-2-1-logo.svg"
-                  alt="bgvfvf"
-                />
+                <a href="https://www.instagram.com/j.coolgramm/">
+                  <img
+                    src="https://www.svgrepo.com/download/303145/instagram-2-1-logo.svg"
+                    alt="bgvfvf"
+                  />
+                </a>
               </div>
               <div className="cool">
-                <img
-                  src="https://www.svgrepo.com/download/448234/linkedin.svg"
-                  alt="bgvfvf"
-                />
+                <a
+                  href="https://www.linkedin.com/in/amedu-kerry-30630a229?
+                        utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                >
+                  <img
+                    src="https://www.svgrepo.com/download/448234/linkedin.svg"
+                    alt="bgvfvf"
+                  />
+                </a>
               </div>
 
               <div className="cool">
-                <img
-                  src="https://www.svgrepo.com/download/303260/tiktok-logo-logo.svg"
-                  alt="bgvfvf"
-                />
+                <a href="https://github.com/Kerrycode">
+                  <img
+                    src="https://www.svgrepo.com/download/439171/github.svg"
+                    alt="bgvfvf"
+                  />
+                </a>
               </div>
               <div className="cool">
-                <img
-                  src="https://www.svgrepo.com/download/303147/whatsapp-icon-logo.svg"
-                  alt="bgvfvf"
-                />
+                <a href="https://wa.me/+2349012722105">
+                  <img
+                    src="https://www.svgrepo.com/download/303147/whatsapp-icon-logo.svg"
+                    alt="bgvfvf"
+                  />
+                </a>
               </div>
             </div>
             <Button className="gethire" variant="contained" disableElevation>
